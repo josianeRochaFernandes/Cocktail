@@ -1,0 +1,212 @@
+body{
+    font: normal, bold, Arial, sans-serif;
+    background-image: url("Photos/background.png");
+
+}
+
+/*NAVBAR*/
+.fa-heart{
+    color: red;
+}
+.nav-link, .navbar-brand{
+    border: solid black 1px;
+    padding: 10px;
+    margin: 6px;
+    font-size: 1em;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding-left: 10px;
+    margin-top:7px;
+}
+
+nav a:hover{
+    background-color: #007bff;
+    color: #fff;
+}
+
+*, ::after, ::before{
+    box-sizing: unset;
+}
+
+.mr-sm-1{
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+.form-control{
+    height: 25px;
+    font-weight: normal;
+    margin-right:3px;
+    width: 100%;
+}
+
+.nav-item .form-control {
+    width: 50%;
+    margin-left:3px;
+    margin-bottom: 6px;
+}
+
+.form-inline{
+    margin-top: 10px;
+    margin-right: 3px;
+    margin-left:5px;
+}
+
+.form-inline label{
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    margin-bottom: 5px;
+    margin-right: 2.1px;
+}
+
+
+.zoneConnexion{
+    background-color: lightgrey;
+    padding-right: 2px;
+    padding-left: 4px;
+    border: solid black 1px;
+    margin-left:4px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+button a{
+    color:white;
+}
+
+button a:hover{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#username{
+    color:red;
+    font-weight: bold;
+    padding-right: 100px;
+}
+
+#profil, #user_out, #tableau{
+    width: auto;
+    height:auto;
+    margin-top:10px;
+}
+
+.row{
+    margin: 0px;
+    flex-wrap: unset;
+}
+
+.zoneConnexion #username {
+    color:purple;
+    padding-left: 20px;
+}
+
+/*BODY*/
+
+h1{
+    font-size: 1.5em;
+}
+h2{
+    font-size:medium;
+}
+
+.col-8{
+    padding-right: 30px;
+}
+
+article, aside, section {
+    display: inline-block;
+    border: black 1px solid;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+/*ALIMENT COURANT NAVIGATION GAUCHE ASIDE*/
+aside{
+    width: 20%;
+    float: left;
+    margin-left:25px;
+    margin-top: 25px;
+    padding-left: 0px;
+}
+
+aside a:hover{
+    font-weight: bold;
+}
+
+aside ul{
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+aside #titre a{
+    color:blueviolet;
+}
+
+/* COCKTAILS ARTICLE*/
+
+article{
+    border-radius: 10px;
+    box-shadow: 10px 6px 5px black;
+    height: 360px;
+    width:230px;
+    display: inline-table;
+    margin-left: 30px;
+    margin-top: 20px ;
+    margin-bottom: 30px;
+}
+
+section{
+    margin:25px;
+    width:65%;
+}
+
+#cocktail{
+    padding-left: 30px;
+}
+
+.alert{
+    padding-left: 30px;
+    font-weight: bold;
+    /* color: red; */
+}
+
+h3{
+    font-size:1em;
+    font-weight: bold;
+}
+
+article li{
+    list-style-type: none;
+    font-size: small;
+
+}
+
+article ul{
+    padding-left: 0px;
+    margin-top:10px;
+}
+img{
+    padding-left: 30%;
+}
+
+header img{
+    margin-top: -10%;
+    padding-left: 90%;
+}
+
+.details img{
+    margin-top: -7%;
+    padding-left: 95%;
+}
+
+
+
+
+
+
