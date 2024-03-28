@@ -1,5 +1,3 @@
-
-
 <p>Page Acceuil</p>
 <img src="image1.png">
 
@@ -8,3 +6,5 @@
 
 <p>Page Favoris</p>
 <img src="image2.png">
+
+<a href="https://github.com/josianeRochaFernandes/Cocktail">Code source</a>
